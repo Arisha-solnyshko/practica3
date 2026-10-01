@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created for JFLAP 7.1.-->
+<structure>
+	<type>grammar</type>
+	<production>
+		<left>S</left>
+		<right>A</right>
+	</production>
+	<production>
+		<left>S</left>
+		<right>B</right>
+	</production>
+	<production>
+		<left>A</left>
+		<right>EaE</right>
+	</production>
+	<production>
+		<left>A</left>
+		<right>EaA</right>
+	</production>
+	<production>
+		<left>B</left>
+		<right>EbE</right>
+	</production>
+	<production>
+		<left>B</left>
+		<right>EbB</right>
+	</production>
+	<production>
+		<left>E</left>
+		<right>aEbE</right>
+	</production>
+	<production>
+		<left>E</left>
+		<right>bEaE</right>
+	</production>
+	<production>
+		<left>E</left>
+		<right/>
+	</production>
+</structure>
